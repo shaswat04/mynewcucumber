@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User enters username and Password",
+        "description": "",
+        "id": "login-feature;user-enters-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8919675800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the login page is opened",
+            "match": {
+              "location": "testMe.the_login_page_is_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 147512400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter lalitha as username",
+            "match": {
+              "location": "testMe.user_enter_lalitha_as_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 146149000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters password123 as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123",
+                  "offset": 20
+                }
+              ],
+              "location": "testMe.user_enters_password_as_password(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 217044000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user will finds a testapp homepage",
+            "match": {
+              "location": "testMe.user_will_finds_a_testapp_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "login Feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "Feature/demo.feature"
+  }
+]
